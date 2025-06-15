@@ -377,10 +377,15 @@ body {
         width: 98vw;
         max-width: 99vw;
     }
-}
 
-@media (max-width: 1250px) {
-    .paw-bg {
-        display: none;
+    .paw-bg[style*="left"] {
+        left: 25% !important;
+        right: auto !important;
+    }
+    .paw-bg[style*="right"] {
+        right: 25% !important;
+        left: auto !important;
     }
 }
+
+
